@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T06:47:28.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="a_lAYxSExwYqrFRThn_n" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T07:48:54.847Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nsSMN9Gncj8j1Ci1w2Ac" version="22.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="954" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="7fsbqNJAy4cbmUeLIFOX-8" value="ocr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="740" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7fsbqNJAy4cbmUeLIFOX-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7fsbqNJAy4cbmUeLIFOX-9" target="7fsbqNJAy4cbmUeLIFOX-121">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7fsbqNJAy4cbmUeLIFOX-9" value="活体,人脸&lt;br&gt;/v2/liveness_check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="740" y="450" width="120" height="60" as="geometry" />
@@ -260,6 +263,14 @@
         </mxCell>
         <mxCell id="7fsbqNJAy4cbmUeLIFOX-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7fsbqNJAy4cbmUeLIFOX-106" source="7fsbqNJAy4cbmUeLIFOX-112" target="7fsbqNJAy4cbmUeLIFOX-114">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7fsbqNJAy4cbmUeLIFOX-121" value="Container" style="swimlane;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="400" width="100" height="30" as="geometry">
+            <mxRectangle x="1020" y="380" width="410" height="280" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7fsbqNJAy4cbmUeLIFOX-123" value="活体检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7fsbqNJAy4cbmUeLIFOX-121">
+          <mxGeometry x="17" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
