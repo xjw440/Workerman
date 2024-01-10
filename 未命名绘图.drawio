@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T03:19:19.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VoNslvHCm3oZ2VvevOKh" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T03:23:05.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="89Q74bL__2p0PFbwfTYH" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2099" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,7 +349,9 @@
           <mxGeometry x="671" y="2065" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DRf6ZpgwnsBxbj2xJTYa-28" value="放款" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="2330" width="610" height="480" as="geometry" />
+          <mxGeometry x="270" y="2330" width="610" height="400" as="geometry">
+            <mxRectangle x="270" y="2330" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DRf6ZpgwnsBxbj2xJTYa-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="DRf6ZpgwnsBxbj2xJTYa-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -445,14 +447,8 @@
         <mxCell id="DRf6ZpgwnsBxbj2xJTYa-53" value="非bnc返回后续" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DRf6ZpgwnsBxbj2xJTYa-28">
           <mxGeometry x="190" y="290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-34" value="开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="385" y="2488" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-37" value="生成订单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="695" y="2488" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-54" value="非bnc可能也请求订单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="2668" width="140" height="30" as="geometry" />
+        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-54" value="非bnc可能也请求订单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DRf6ZpgwnsBxbj2xJTYa-28">
+          <mxGeometry x="30" y="338" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
