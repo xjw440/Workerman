@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T03:23:05.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="89Q74bL__2p0PFbwfTYH" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T08:49:16.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="W8f6HGY_gpcy0pTpQFxR" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2099" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,14 +308,6 @@
         <mxCell id="7fsbqNJAy4cbmUeLIFOX-132" value="配置文件，归类" style="rounded=0;whiteSpace=wrap;html=1;" parent="7fsbqNJAy4cbmUeLIFOX-131" vertex="1">
           <mxGeometry x="27" y="50" width="143" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DRf6ZpgwnsBxbj2xJTYa-13" target="DRf6ZpgwnsBxbj2xJTYa-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-20" value="是否BNC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DRf6ZpgwnsBxbj2xJTYa-17">
-          <mxGeometry x="-0.0583" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DRf6ZpgwnsBxbj2xJTYa-13" value="借款order/orderloan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="471" y="2065" width="120" height="60" as="geometry" />
         </mxCell>
@@ -324,26 +316,6 @@
         </mxCell>
         <mxCell id="DRf6ZpgwnsBxbj2xJTYa-14" value="lunan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="471" y="1950" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DRf6ZpgwnsBxbj2xJTYa-16" target="DRf6ZpgwnsBxbj2xJTYa-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-16" value="订单系统" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="471" y="2205" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DRf6ZpgwnsBxbj2xJTYa-18" target="DRf6ZpgwnsBxbj2xJTYa-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-18" value="生成订单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="671" y="2205" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DRf6ZpgwnsBxbj2xJTYa-21" target="DRf6ZpgwnsBxbj2xJTYa-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DRf6ZpgwnsBxbj2xJTYa-24" value="main回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DRf6ZpgwnsBxbj2xJTYa-23">
-          <mxGeometry x="0.0157" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="DRf6ZpgwnsBxbj2xJTYa-21" value="是bnc（可能bnc特殊）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="671" y="2065" width="120" height="60" as="geometry" />
